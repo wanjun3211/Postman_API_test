@@ -106,4 +106,10 @@ The photo is a screenshot that shows this collection result. And there is one fi
 
 <img width="1234" height="823" alt="image" src="https://github.com/user-attachments/assets/9672aa1c-4d28-48e8-947a-aac42819288f" />
 
+## Other feature of this API testing 
+
+The base API address and book ID has been stored in the varible.
+
+<img width="619" height="655" alt="image" src="https://github.com/user-attachments/assets/89a043e1-595a-4087-ae96-92c31d3a58a1" />
+
 
