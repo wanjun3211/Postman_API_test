@@ -65,7 +65,16 @@ pm.test("Stock is greater than 0",  ()=> {
     
 9. Get all order books
 
-    Using the **Get** to show all the book order information.
+    Using the **Get** to show all the book order information. The script in this section is
+```javascript
+    pm.test("Status code is 200",  ()=> {
+    pm.response.to.have.status(200);
+});
+
+const response = pm.response.json();
+console.log(response[0].id);
+pm.globals.set("orderID", response[0].id);
+```
    
 11. Get an order
 
