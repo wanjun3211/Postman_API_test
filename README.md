@@ -20,7 +20,9 @@ This project is about using the Postman to test a public book management API, wh
     Using the **Post** to show one book information.
     
 9. Get all order books
-10. Get an order
-11. Update an order
-12. Delete order
+
+    Using the **Get** to show all the book order information.
+11. Get an order
+12. Update an order
+13. Delete order
 
