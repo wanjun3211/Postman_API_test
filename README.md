@@ -102,5 +102,7 @@ pm.globals.set("orderID", response[0].id);
     
 ## Using **Runner** to automate this collection
 
-<img width="880" height="458" alt="Postman 1" src="https://github.com/user-attachments/assets/6e97b4c7-6ba4-4aa3-a9f2-9adc7030c462" />
+
+<img width="1234" height="823" alt="image" src="https://github.com/user-attachments/assets/9672aa1c-4d28-48e8-947a-aac42819288f" />
+
 
