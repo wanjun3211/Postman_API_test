@@ -98,3 +98,6 @@ pm.globals.set("orderID", response[0].id);
     pm.response.to.have.status(204);
     });
     ```
+
+    
+## Using **Runner** to automate this collection
