@@ -22,7 +22,14 @@ This project is about using the Postman to test a public book management API, wh
 9. Get all order books
 
     Using the **Get** to show all the book order information.
+   
 11. Get an order
-12. Update an order
-13. Delete order
+
+     Using the **Get** to show one order information.
+    
+13. Update an order
+
+    Using the patch to update the order information. In this instance, I tried to update the borrower's name.
+     
+15. Delete order
 
