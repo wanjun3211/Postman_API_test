@@ -12,7 +12,9 @@ This project is about using the Postman to test a public book management API, wh
     Using the  **Get** to list all the book information.
   
 5. Get a single book
-   Requesting a 
+
+    Using the **Get** to show one book information.
+   
 7. Order book
 8. Get all order books
 9. Get an order
