@@ -92,4 +92,9 @@ pm.globals.set("orderID", response[0].id);
      
 15. Delete order
 
-    Using the **Delete** to delete an existing order.
+    Using the **Delete** to delete an existing order. The script in this section is
+    ```javascript
+    pm.test("Status code is 204",  ()=> {
+    pm.response.to.have.status(204);
+    });
+    ```
