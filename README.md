@@ -5,7 +5,7 @@ This project is about using the Postman to test a public book management API, wh
 ### The Eight individual API Testing Items and Description
 1. API Status.
 
-    Checking connection with server is working properly, using Get.
+    Using the **Get** to checking connection with server is working properly, .
   
 3. List of books
   List all the book information, using Get
