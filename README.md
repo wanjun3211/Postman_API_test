@@ -1,5 +1,6 @@
 # Postman automation API test about a public book management API
 
+### Introduction
 This project is about using the Postman to test a public book management API, which consists of eight individual API testing items.  I first created each individual item and then writing corresponding test scripts to check they are working all properly. Finally, I used the Runner function in the Postman to automate this collection. 
 
 ### The Eight individual API Testing Items and Description
