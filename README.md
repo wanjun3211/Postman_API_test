@@ -57,10 +57,10 @@ pm.test("Stock is greater than 0",  ()=> {
 7. Order book
 
     Using the **Post** to show one book information. The script in this section is
-    ```javascript
+   ```javascript
     pm.test("Status code is 201",  ()=> {
     pm.response.to.have.status(201);
-});
+   });
     ```
     
 9. Get all order books
