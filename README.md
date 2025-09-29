@@ -13,7 +13,25 @@ This project is about using the Postman to test a public book management API, wh
   
 3. List of books
    
-    Using the  **Get** to list all the book information.
+    Using the  **Get** to list all the book information. The script in this section is
+    `pm.test("Status code is 200",  ()=> {
+    pm.response.to.have.status(200);
+});
+
+const response = pm.response.json();
+const books = response.filter((book) => book.available === true);
+
+const book = books[0];
+
+if(book){
+pm.globals.set("avaBookId", books[0].id);
+}
+
+pm.test("Book found", ()=>{
+    pm.expect(book).to.be.an('object');
+    pm.expect(book.available).to.be.true;
+    pm.expect(book.available).to.eql(true);
+})`
   
 5. Get a single book
 
