@@ -40,7 +40,19 @@ pm.test("Book found", ()=>{
 
 5. Get a single book
 
-    Using the **Get** to show one book information.
+      Using the  **Get** to list all the book information. The script in this section is
+```javascript
+   pm.test("Status code is 200",  ()=> {
+    pm.response.to.have.status(200);
+});
+
+const response = pm.response.json();
+console.log(response['current-stock']);
+
+pm.test("Stock is greater than 0",  ()=> {
+    pm.expect(response['current-stock']).to.be.above(0);
+});
+   ```
    
 7. Order book
 
