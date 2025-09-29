@@ -33,3 +33,4 @@ This project is about using the Postman to test a public book management API, wh
      
 15. Delete order
 
+    Using the **Delete** to delete an existing order.
