@@ -7,9 +7,11 @@ This project is about using the Postman to test a public book management API, wh
 1. API Status.
 
     Using the **Get** to checking connection with server is working properly. The script in this section is
-    `pm.test("Status code is 200",  ()=> {
+    ```javascript
+    pm.test("Status code is 200",  ()=> {
     pm.response.to.have.status(200);
-});`.
+    });
+    ```
   
 3. List of books
    
