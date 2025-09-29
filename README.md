@@ -8,7 +8,9 @@ This project is about using the Postman to test a public book management API, wh
     Using the **Get** to checking connection with server is working properly, .
   
 3. List of books
-  List all the book information, using Get
+   
+    Using the  **Get** to list all the book information.
+  
 5. Get a single book
    Requesting a 
 7. Order book
