@@ -82,7 +82,13 @@ pm.globals.set("orderID", response[0].id);
     
 13. Update an order
 
-    Using the **Patch** to update the order information. In this instance, I tried to update the borrower's name.
+    Using the **Patch** to update the order information. In this instance, I tried to update the borrower's name. The script in this section is
+```javascript
+    pm.test("Status code is 204",  ()=> {
+    pm.response.to.have.status(204);
+});
+```
+    
      
 15. Delete order
 
